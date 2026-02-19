@@ -30,6 +30,12 @@ export default function Login() {
         <div className="min-h-screen flex dark:bg-slate-900">
             {/* Left Side - Hero/Brand (Hidden on mobile) */}
             <div className="hidden lg:flex w-1/2 bg-gradient-to-br from-indigo-600 to-purple-700 relative overflow-hidden flex-col justify-between p-12 text-white">
+                <img
+                    src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1600&q=80"
+                    alt="Financial planning workspace"
+                    className="absolute inset-0 w-full h-full object-cover opacity-65"
+                />
+                <div className="absolute inset-0 bg-gradient-to-br from-slate-900/45 via-indigo-700/35 to-violet-700/45"></div>
                 <div className="relative z-10">
                     <div className="flex items-center gap-3 text-2xl font-bold mb-6">
                         <FaWallet className="text-indigo-200" />
@@ -48,7 +54,7 @@ export default function Login() {
                 <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-indigo-500/30 blur-3xl"></div>
 
                 <div className="relative z-10 text-sm text-indigo-200">
-                    © 2024 Fintech. All rights reserved.
+                    © 2026 Fintech. All rights reserved.
                 </div>
             </div>
 

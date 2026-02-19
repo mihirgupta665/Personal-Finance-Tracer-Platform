@@ -53,7 +53,7 @@ export default function Signup() {
                 <div className="absolute bottom-0 right-0 -mr-20 -mb-20 w-80 h-80 rounded-full bg-purple-500/30 blur-3xl"></div>
 
                 <div className="relative z-10 text-sm text-indigo-200">
-                    © 2024 Fintech. All rights reserved.
+                    © 2026 Fintech. All rights reserved.
                 </div>
             </div>
 
