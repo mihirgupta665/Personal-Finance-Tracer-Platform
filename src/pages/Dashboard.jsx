@@ -89,9 +89,10 @@ export default function Dashboard() {
             {/* Floating Action Button for Mobile */}
             <button
                 onClick={() => setIsModalOpen(true)}
-                className="fixed bottom-[8.5rem] right-4 w-14 h-14 bg-indigo-600 hover:bg-indigo-700 text-white rounded-full shadow-lg flex-center sm:hidden z-40 transition-transform active:scale-90"
+                aria-label="Add transaction"
+                className="fixed bottom-40 right-5 w-12 h-12 bg-indigo-600 hover:bg-indigo-700 text-white rounded-full border-2 border-white/80 dark:border-slate-900/70 shadow-xl flex-center sm:hidden z-40 transition-all active:scale-95"
             >
-                <FaPlus size={24} />
+                <FaPlus size={18} />
             </button>
         </div>
     );

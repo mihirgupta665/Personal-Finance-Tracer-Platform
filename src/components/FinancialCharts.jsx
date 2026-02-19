@@ -124,7 +124,7 @@ export default function FinancialCharts() {
 
             <div className="card h-[26rem] sm:h-[28rem] flex flex-col">
                 <h3 className="text-lg font-bold text-gray-800 dark:text-white mb-4">Day-wise Expense Trend</h3>
-                <div className="flex-1 min-h-0 grid grid-cols-1 lg:grid-cols-[180px_minmax(0,1fr)] gap-4">
+                <div className="flex-1 min-h-0 grid grid-cols-1 grid-rows-[auto_minmax(0,1fr)] lg:grid-cols-[180px_minmax(0,1fr)] lg:grid-rows-1 gap-4">
                     <div className="grid grid-cols-1 gap-2 w-full max-w-[180px] lg:max-w-none">
                         <button
                             onClick={() => setExpenseChartType('histogram')}
@@ -154,7 +154,7 @@ export default function FinancialCharts() {
                             Area
                         </button>
                     </div>
-                    <div className="min-h-0">
+                    <div className="min-h-[220px] lg:min-h-0">
                         {hasExpenseByDayData ? (
                             <ResponsiveContainer width="100%" height="100%">
                                     {expenseChartType === 'histogram' && (
